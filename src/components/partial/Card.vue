@@ -41,22 +41,6 @@
       transform: scale(1.1);
     }
 
-    .square-img-container {
-    width: 100%;
-    padding-top: 100%; /* Imposta l'altezza in base alla larghezza per ottenere un quadrato */
-    position: relative;
-    overflow: hidden;
-  }
-
-  img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* Scalare l'immagine per riempire completamente il contenitore */
-    border-radius: 25px; /* Assicurati che l'immagine sia arrotondata insieme al contenitore */
-  }
-
-  }
+  
+}
 </style>
